@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package foo;
+
+option go_package = "./";
+
+service Bar {
+    rpc Process (FooRequest) returns (FooResponse);
+}
+
+message FooRequest {
+    string message = 1;
+}
+
+message FooResponse {
+    string message = 1;
+}
+ 
