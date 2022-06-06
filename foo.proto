@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package foo;
 
-option go_package = "./";
+option go_package = "./;main";
 
 service Bar {
     rpc Process (FooRequest) returns (FooResponse);

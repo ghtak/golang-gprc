@@ -4,7 +4,7 @@
 // - protoc             v3.21.1
 // source: foo.proto
 
-package __
+package main
 
 import (
 	context "context"
